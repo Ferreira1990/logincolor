@@ -1,0 +1,306 @@
+.Fatherbox {
+    padding: 50px 150px 50px 150px;
+    display: flex;   
+
+}
+
+.Designbox {
+    background-image: url(../../assets/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 80vh;
+    border-radius: 20px 0 0 20px;
+    box-shadow: 6px 6px rgb(0, 0, 0);
+}
+
+.Designbox h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 200px;
+    text-shadow: 2px 2px black;
+}
+
+.Loginbox {
+    width: 50%;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 6px 6px rgb(0, 0, 0);
+    height: 80vh;
+
+}
+
+.box{
+    padding: 40px 80px;
+}
+
+.box h1{
+    font-weight: 900;
+    color: black;
+    font-size: 40px;
+}
+
+.plogin{
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+
+.boxusername{
+    display: flex;
+    flex-direction: column;
+}
+
+.boxusername label{
+    color: gray;   
+    margin-bottom: 10px; 
+}
+
+.boxusername input{
+    border: 1px gray solid;
+    height: 40px;
+    margin-bottom: 10px; 
+}
+
+.boxpassword{
+    display: flex;
+    flex-direction: column;
+}
+
+.boxpassword label{
+    color: gray;
+}
+
+.boxpassword input{
+    border: 1px solid gray;
+    height: 40px;
+    margin-bottom: 35px;
+}
+
+.boxremember{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+
+.boxremember a{
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.Recuerdaboxxx{
+    display: flex;
+    text-align: center;
+}
+
+
+.Recuerdaboxxx p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;    
+}
+
+
+
+.Buttonlogin{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color:rgb(81, 33, 255);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 1px;   
+}
+
+.Buttonlogin:hover{
+    transition: all 0.5s;
+    background-color: rgb(0, 42, 126);
+
+}
+
+.olvidaste{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.olvidaste a{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.boxeresnuevo{
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.boxeresnuevo p{
+    margin: 0;
+    font-size: 12px;
+}
+
+.boxeresnuevo a{
+    font-size: 12px;
+    margin-left: 12px;
+    text-decoration: none;
+    color: rgb(81, 33, 255);
+}
+
+
+
+
+
+
+
+@media (max-width:1300px){
+
+    .Fatherbox{
+        margin: 50px 20px;
+        padding: 0;
+    }
+
+    .box{
+      margin: 20px 40px;
+      padding: 0;
+    }
+
+
+
+  .Loginbox{
+    width: 70%;
+    border-radius: 20px;  }
+
+}
+
+@media (max-width:1100px){
+
+    .Fatherbox{
+        display: flex;
+        justify-content: center;
+    }
+
+    body{
+        background-image: url(../../assets//bg.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .Designbox{
+        display: none;
+    }
+
+    .Loginbox{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 80%;
+      border-radius: 20px;
+      box-shadow: none;
+      max-height: 800px;  
+    }
+  }
+
+
+@media (max-width:1000px){
+
+    .Fatherbox{
+        margin: 50px 20px;
+        padding: 0;
+        display: flex;
+        justify-content: center;     
+    }
+
+    body{
+        background-image: url(../../assets//bg.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .box{
+      margin: 20px 40px;
+      padding: 0;
+
+    }
+
+
+  .Designbox{
+    display: none;   
+  }    
+
+  .Loginbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: none;
+  }
+
+  .boxremember a{
+   margin-left: 10px;
+
+  }
+
+  .boxeresnuevo{
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+
+@media (max-width:800px){
+  .Loginbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: none;
+  }
+}
+
+
+@media (max-width:650px){
+    .Loginbox{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 90%;
+      border-radius: 20px;
+      box-shadow: none;
+    }
+  }
+
+  @media (max-width:500px){
+
+    .Loginbox{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: none;     
+    }
+  }
